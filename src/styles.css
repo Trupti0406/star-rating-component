@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+span {
+  font-size: 48px;
+  cursor: pointer;
+}
+div {
+  font-size: 24px;
+}
+.gold {
+  color: goldenrod;
+}
+@media only screen and (max-width: 600px) {
+  span {
+    font-size: 32px;
+  }
+  div {
+    font-size: 18px;
+  }
+}
